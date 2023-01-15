@@ -35,7 +35,7 @@ export const managers = [
     "mode": "Win Now", 
     "rival": {
       name: "Everyone",
-      link: null,
+      link: 6,
       image: "/managers/everyone.png",
     },
     "favoritePlayer": 3198,
@@ -57,7 +57,7 @@ export const managers = [
     "mode": "Dynasty",
     "rival": {
       name: "Rival",
-      link: null,
+      link: 5,
       image: "/managers/rival.jpg",
     },
     "favoritePlayer": 1426,
@@ -79,7 +79,7 @@ export const managers = [
     "mode": "Win Now",
     "rival": {
       name: "Everyone",
-      link: null,
+      link: 4,
       image: "/managers/everyone.png",
     },
     "favoritePlayer": 1426,
@@ -101,7 +101,7 @@ export const managers = [
     "mode": "Win Now",
     "rival": {
       name: "Everyone",
-      link: null,
+      link: 3,
       image: "/managers/everyone.png",
     },
     "favoritePlayer": 1426,
@@ -123,7 +123,7 @@ export const managers = [
     "mode": "Rebuild",
     "rival": {
       name: "Everyone",
-      link: null,
+      link: 2,
       image: "/managers/everyone.png",
     },
     "favoritePlayer": 1426,
@@ -145,7 +145,7 @@ export const managers = [
     "mode": "Win Now",
     "rival": {
       name: "Everyone",
-      link: null,
+      link: 7,
       image: "/managers/everyone.png",
     },
     "favoritePlayer": 1426,
@@ -167,7 +167,7 @@ export const managers = [
     "mode": "Win Now",
     "rival": {
       name: "Everyone",
-      link: null,
+      link: 6,
       image: "/managers/everyone.png",
     },
     "favoritePlayer": 1426,
@@ -189,7 +189,7 @@ export const managers = [
     "mode": "Win Now",
     "rival": {
       name: "Everyone",
-      link: null,
+      link: 4,
       image: "/managers/everyone.png",
     },
     "favoritePlayer": 1426,
@@ -211,7 +211,7 @@ export const managers = [
     "mode": "Win Now",
    "rival": {
       name: "Everyone",
-      link: null,
+      link: 1,
       image: "/managers/everyone.png",
     },
     "favoritePlayer": 1426,
@@ -233,7 +233,7 @@ export const managers = [
     "mode": "Win Now",
     "rival": {
       name: "Everyone",
-      link: null,
+      link: 2,
       image: "/managers/everyone.png",
     },
     "favoritePlayer": 1426,
