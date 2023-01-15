@@ -1,17 +1,17 @@
 /*   STEP 1   */
-export const leagueID = "918537087509577728"; // your league ID
-export const leagueName = "The Legends League"; // your league name
-export const dues = 100; // (optional) used in template constitution page
+export const leagueID = "873246287271792640"; // your league ID
+export const leagueName = "The League"; // your league name
+export const dues = 25; // (optional) used in template constitution page
 export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Founded in 2014, the Legends League began as keeper league amongst a small group of friends. In 2019, the league converted into a full-fledged dynasty league. Each year, the managers compete to win the Legends Cup and avoid the <i>ever-humiliating</i> Tammy Bowl.</p>
-  <p>Some managers built immediate win-now teams, while others began the slow process of building a juggernaut dynasty team. A portion of the league prioritized youth and draft picks, the rest gravitated towards the steadfast value of veterans. While some managers fled from injuries and down years, others bought the dip and built for the future.</p>
-  <p>In astounding commitment to building a dynasty franchise, many of the managers have begun to have kids and groom the next generation of managers to take over their teams. The mini managers are being heavily indoctrinated into the fantasy lifestyle and will be expected to take an active role as soon as they can succesfully type out a coherent trade offer.</p>
-  <p>In contrast to the addition of the mini managers, some managers have also left but, despite that, the league has only gotten stronger. With more passionate managers, the competition has become more intense and more difficult each year.</p>
-  <p>While the ultimate prize is bragging rights and sending obnoxious texts to the rest of the league for the next year, the champion manager also walks away with $800 and the last place manager ships the Legends Cup to the new champion.</p>
+<p>Welcome to The League.</p>
+<p>If you notice any issues with the website, please let StickyPicky know so he can fix it. </p>
+<p>There are some decent features this adds, if you are interested, under "records" it breaks down different season and all time records.</p>
+<p></p>
+<p></p>
 `;
 
 /*   STEP 3   */
@@ -25,26 +25,26 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 export const managers = [
   {
-    "managerID": "466808847713955840",
-    "name": "Andrew Shapiro",
-    "location": "Brooklyn",
-    "bio": "I joined the league last year.  I went to high school and college with nick and we were roommates for 3 years.  I have 2 kids both boys one is almost 3 and the other is 6 months.  I love to trade.\nMy favorite teams are: 1) my fantasy team 2) I was a jets fan but dumped them for the dolphins last year",
-    "photo": "/managers/andrew.jpg",
-    "fantasyStart": 2010,
-    "favoriteTeam": "mia",
+    "managerID": "633359171764449280",
+    "name": "Sean (StickyPicky)",
+    "location": "Detroit",
+    "bio": "CNC operator by day, fantasy coach by night",
+    "photo": "/managers/Picky.jpg",
+    "fantasyStart": 2015,
+    "favoriteTeam": "det",
     "mode": "Win Now",
     "rival": {
-      name: "Clayton",
-      link: 6,
-      image: "/managers/clayton.jpg"
+      name: "Everyone",
+      link: null,
+      image: "/managers/everyone.jpg"
     },
-    "favoritePlayer": 2449,
+    "favoritePlayer": 3198,
     "valuePosition": "WR",
     "rookieOrVets": "Rookies",
-    "philosophy": "Next man up.",
-    "tradingScale": 10,
-    "contactMethods": "Text, WhatsApp, email, Blind Sleeper offer",
-    "preferredContact": "Text",
+    "philosophy": "You lose every chance you dont take.",
+    "tradingScale": 7,
+    "contactMethods": "email, Blind Sleeper offer",
+    "preferredContact": "Sleeper",
   },
   {
     "managerID": "463854522964373504",
