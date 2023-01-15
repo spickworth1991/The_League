@@ -47,7 +47,7 @@ export const managers = [
     "preferredContact": "Sleeper",
   },
   {
-    "managerID": "463854522964373504",
+    "managerID": "466018632162340864",
     "name": "Nick Melhado",
     "location": "Brooklyn",
     "bio": "I grew up in New York City and know most of the people in the league from Southampton. I also went to high school with Andrew, Stef, and Rory and went to college and roomed with Seamus and Andrew. I've been married since 2016 and have a son, Grayson, and a daughter on the way.",
@@ -68,7 +68,7 @@ export const managers = [
     "preferredContact": "Text",
   },
   {
-    "managerID": "463861417238327296",
+    "managerID": "467332407989628928",
     "name": "Charles McConnell",
     "location": "Hong Kong",
     "bio": "Diehard Jets fan, most talented manager out there, and mortal enemy of Clayton Almeida.",
@@ -90,7 +90,7 @@ export const managers = [
     "preferredContact": "WhatsApp",
   },
   {
-    "managerID": "703785166493020160",
+    "managerID": "871098508751613952",
     "name": "Stefano Vaccarino",
     "location": "Brooklyn",
     "bio": "Just a man who loves to win in the trenches",
@@ -112,7 +112,7 @@ export const managers = [
     "preferredContact": "WhatsApp",
   },
   {
-    "managerID": "601985300511645696",
+    "managerID": "607072591399698432",
     "name": "Seamus Kerin",
     "location": "New York",
     "bio": "#serious about fitness",
@@ -134,7 +134,7 @@ export const managers = [
     "preferredContact": "Text",
   },
   {
-    "managerID": "703787086343409664",
+    "managerID": "466050278584479744",
     "name": "Rory Kirwan",
     "location": "New York",
     "bio": "CO-MANAGER OF THE HOGS ",
@@ -156,7 +156,7 @@ export const managers = [
     "preferredContact": "Text",
   },
   {
-    "managerID": "463849884735238144",
+    "managerID": "853359294014410752",
     "name": "Clayton Almeida",
     "location": "West Palm Beach",
     "bio": "Dual citizen that has been in the USA since 2002. Moved around quite a bit because that's what immigrants do. One of the Founding Fathers of the Legends League. Equally decent at coaching and playing tennis. Vast knowledge about useless or not so useless facts. Never shy away from an argument/discussion. Oh and 3 time fantasy football champion that might retire if I win this year again. Also like financial markets and trading (stocks not players)",
@@ -178,7 +178,7 @@ export const managers = [
     "preferredContact": "Text",
   },
   {
-    "managerID": "464469353119608832",
+    "managerID": "732620569417224192",
     "name": "Tom Barth",
     "location": "Solon, Ohio",
     "bio": "The Browns are going to the Super Bowl this year!",
@@ -200,7 +200,7 @@ export const managers = [
     "preferredContact": "WhatsApp",
   },
   {
-    "managerID": "463860064092942336",
+    "managerID": "725535217791643648",
     "name": "Joel Trudel",
     "location": "Newton, MA",
     "bio": "While I live in New England now, I will never be a fan of any of the Boston teams (the Celtics are good, I like Brown/Tatum); my allegiance will always live in Seattle, and ANY of the teams, including the return of the SuperSonics (RIP) and the Kraken!! My co-manager and I got married about a year and ½ ago and bought a house in December, setting up roots in the Boston area. Any of you are welcome to visit, though I couldn’t even get Clayton to come up from CT when he was there… 🤔 Though I don’t work in tennis anymore, it’s been great to me as my wife and I met through tennis, and is also how I know many of you.",
@@ -222,7 +222,7 @@ export const managers = [
     "preferredContact": "WhatsApp",
   },
   {
-    "managerID": "464270410381258752",
+    "managerID": "753965951472574464",
     "name": "Shea Thomas",
     "location": "Lynchburg, VA",
     "bio": "I’m 29 years old and have been married to my beautiful wife for a little over a year. I played tennis at Liberty University from 2010-14 and was ranked top 20 for doubles. I have been teaching tennis ever since I graduated. I won the inaugural season of the Legends League  and look to dominate the league over the next 10 years and create a dynasty!",
