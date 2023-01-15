@@ -1,17 +1,17 @@
 /*   STEP 1   */
-export const leagueID = "873246287271792640"; // your league ID
-export const leagueName = "The League"; // your league name
-export const dues = 25; // (optional) used in template constitution page
+export const leagueID = "918537087509577728"; // your league ID
+export const leagueName = "The Legends League"; // your league name
+export const dues = 100; // (optional) used in template constitution page
 export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
 
 /*   STEP 2   */
 export const homepageText = `
-<p>Welcome to The League.</p>
-<p>If you notice any issues with the website, please let StickyPicky know so he can fix it. </p>
-<p>There are some decent features this adds, if you are interested, under "records" it breaks down different season and all time records.</p>
-<p></p>
-<p></p>
+  <p>Founded in 2014, the Legends League began as keeper league amongst a small group of friends. In 2019, the league converted into a full-fledged dynasty league. Each year, the managers compete to win the Legends Cup and avoid the <i>ever-humiliating</i> Tammy Bowl.</p>
+  <p>Some managers built immediate win-now teams, while others began the slow process of building a juggernaut dynasty team. A portion of the league prioritized youth and draft picks, the rest gravitated towards the steadfast value of veterans. While some managers fled from injuries and down years, others bought the dip and built for the future.</p>
+  <p>In astounding commitment to building a dynasty franchise, many of the managers have begun to have kids and groom the next generation of managers to take over their teams. The mini managers are being heavily indoctrinated into the fantasy lifestyle and will be expected to take an active role as soon as they can succesfully type out a coherent trade offer.</p>
+  <p>In contrast to the addition of the mini managers, some managers have also left but, despite that, the league has only gotten stronger. With more passionate managers, the competition has become more intense and more difficult each year.</p>
+  <p>While the ultimate prize is bragging rights and sending obnoxious texts to the rest of the league for the next year, the champion manager also walks away with $800 and the last place manager ships the Legends Cup to the new champion.</p>
 `;
 
 /*   STEP 3   */
@@ -25,29 +25,29 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 export const managers = [
   {
-    "managerID": "633359171764449280",
-    "name": "Sean (StickyPicky)",
-    "location": "Detroit",
-    "bio": "CNC operator by day, fantasy coach by night",
-    "photo": "/managers/Picky.jpg",
-    "fantasyStart": 2015,
-    "favoriteTeam": "det",
+    "managerID": "466808847713955840",
+    "name": "Andrew Shapiro",
+    "location": "Brooklyn",
+    "bio": "I joined the league last year.  I went to high school and college with nick and we were roommates for 3 years.  I have 2 kids both boys one is almost 3 and the other is 6 months.  I love to trade.\nMy favorite teams are: 1) my fantasy team 2) I was a jets fan but dumped them for the dolphins last year",
+    "photo": "/managers/andrew.jpg",
+    "fantasyStart": 2010,
+    "favoriteTeam": "mia",
     "mode": "Win Now",
     "rival": {
-      name: "Everyone",
-      link: null,
-      image: "/managers/everyone.jpg"
+      name: "Clayton",
+      link: 6,
+      image: "/managers/clayton.jpg"
     },
-    "favoritePlayer": 3198,
+    "favoritePlayer": 2449,
     "valuePosition": "WR",
     "rookieOrVets": "Rookies",
-    "philosophy": "You lose every chance you dont take.",
-    "tradingScale": 7,
-    "contactMethods": "email, Blind Sleeper offer",
-    "preferredContact": "Sleeper",
+    "philosophy": "Next man up.",
+    "tradingScale": 10,
+    "contactMethods": "Text, WhatsApp, email, Blind Sleeper offer",
+    "preferredContact": "Text",
   },
   {
-    "managerID": "466018632162340864",
+    "managerID": "463854522964373504",
     "name": "Nick Melhado",
     "location": "Brooklyn",
     "bio": "I grew up in New York City and know most of the people in the league from Southampton. I also went to high school with Andrew, Stef, and Rory and went to college and roomed with Seamus and Andrew. I've been married since 2016 and have a son, Grayson, and a daughter on the way.",
@@ -68,7 +68,7 @@ export const managers = [
     "preferredContact": "Text",
   },
   {
-    "managerID": "467332407989628928",
+    "managerID": "463861417238327296",
     "name": "Charles McConnell",
     "location": "Hong Kong",
     "bio": "Diehard Jets fan, most talented manager out there, and mortal enemy of Clayton Almeida.",
@@ -90,7 +90,7 @@ export const managers = [
     "preferredContact": "WhatsApp",
   },
   {
-    "managerID": "871098508751613952",
+    "managerID": "703785166493020160",
     "name": "Stefano Vaccarino",
     "location": "Brooklyn",
     "bio": "Just a man who loves to win in the trenches",
@@ -112,7 +112,7 @@ export const managers = [
     "preferredContact": "WhatsApp",
   },
   {
-    "managerID": "607072591399698432",
+    "managerID": "601985300511645696",
     "name": "Seamus Kerin",
     "location": "New York",
     "bio": "#serious about fitness",
@@ -134,7 +134,7 @@ export const managers = [
     "preferredContact": "Text",
   },
   {
-    "managerID": "466050278584479744",
+    "managerID": "703787086343409664",
     "name": "Rory Kirwan",
     "location": "New York",
     "bio": "CO-MANAGER OF THE HOGS ",
@@ -156,7 +156,7 @@ export const managers = [
     "preferredContact": "Text",
   },
   {
-    "managerID": "853359294014410752",
+    "managerID": "463849884735238144",
     "name": "Clayton Almeida",
     "location": "West Palm Beach",
     "bio": "Dual citizen that has been in the USA since 2002. Moved around quite a bit because that's what immigrants do. One of the Founding Fathers of the Legends League. Equally decent at coaching and playing tennis. Vast knowledge about useless or not so useless facts. Never shy away from an argument/discussion. Oh and 3 time fantasy football champion that might retire if I win this year again. Also like financial markets and trading (stocks not players)",
@@ -178,7 +178,7 @@ export const managers = [
     "preferredContact": "Text",
   },
   {
-    "managerID": "732620569417224192",
+    "managerID": "464469353119608832",
     "name": "Tom Barth",
     "location": "Solon, Ohio",
     "bio": "The Browns are going to the Super Bowl this year!",
@@ -200,7 +200,7 @@ export const managers = [
     "preferredContact": "WhatsApp",
   },
   {
-    "managerID": "725535217791643648",
+    "managerID": "463860064092942336",
     "name": "Joel Trudel",
     "location": "Newton, MA",
     "bio": "While I live in New England now, I will never be a fan of any of the Boston teams (the Celtics are good, I like Brown/Tatum); my allegiance will always live in Seattle, and ANY of the teams, including the return of the SuperSonics (RIP) and the Kraken!! My co-manager and I got married about a year and ½ ago and bought a house in December, setting up roots in the Boston area. Any of you are welcome to visit, though I couldn’t even get Clayton to come up from CT when he was there… 🤔 Though I don’t work in tennis anymore, it’s been great to me as my wife and I met through tennis, and is also how I know many of you.",
@@ -222,7 +222,7 @@ export const managers = [
     "preferredContact": "WhatsApp",
   },
   {
-    "managerID": "753965951472574464",
+    "managerID": "464270410381258752",
     "name": "Shea Thomas",
     "location": "Lynchburg, VA",
     "bio": "I’m 29 years old and have been married to my beautiful wife for a little over a year. I played tennis at Liberty University from 2010-14 and was ranked top 20 for doubles. I have been teaching tennis ever since I graduated. I won the inaugural season of the Legends League  and look to dominate the league over the next 10 years and create a dynasty!",
