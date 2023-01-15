@@ -1,5 +1,5 @@
 /*   STEP 1   */
-export const leagueID = "873246287271792640"; // your league ID
+export const leagueID = "920326259551375360"; // your league ID
 export const leagueName = "The League"; // your league name
 export const dues = 25; // (optional) used in template constitution page
 export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
@@ -43,7 +43,6 @@ export const managers = [
     "rookieOrVets": "Rookies",
     "philosophy": "You lose every chance you dont take. ",
     "tradingScale": 7,
-    "contactMethods": "email, Blind Sleeper offer, Have someone click the \"interested in\" button on sleeper, Carrier pigeon",
     "preferredContact": "Sleeper",
   },
   {
@@ -65,7 +64,6 @@ export const managers = [
     "rookieOrVets": "Rookies",
     "philosophy": "Your fantasy team's philosophy",
     "tradingScale": 10,
-    "contactMethods": "Blind Sleeper offer, Have someone click the \"interested in\" button on sleeper, Carrier pigeon",
     "preferredContact": "Sleeper",
   },
   {
@@ -87,7 +85,6 @@ export const managers = [
     "rookieOrVets": "Rookies",
     "philosophy": "Your fantasy team's philosophy",
     "tradingScale": 7,
-    "contactMethods": "Blind Sleeper offer, Have someone click the \"interested in\" button on sleeper, Carrier pigeon",
     "preferredContact": "Sleeper",
   }, 
   {
@@ -109,7 +106,6 @@ export const managers = [
     "rookieOrVets": "Rookies",
     "philosophy": "Your fantasy team's philosophy",
     "tradingScale": 7,
-    "contactMethods": "Blind Sleeper offer, Have someone click the \"interested in\" button on sleeper, Carrier pigeon",
     "preferredContact": "Sleeper",
   }, 
   {
@@ -131,7 +127,6 @@ export const managers = [
     "rookieOrVets": "Rookies",
     "philosophy": "Your fantasy team's philosophy",
     "tradingScale": 7,
-    "contactMethods": "Blind Sleeper offer, Have someone click the \"interested in\" button on sleeper, Carrier pigeon",
     "preferredContact": "Sleeper",
   }, 
   {
@@ -153,7 +148,6 @@ export const managers = [
     "rookieOrVets": "Rookies",
     "philosophy": "Your fantasy team's philosophy",
     "tradingScale": 7,
-    "contactMethods": "Blind Sleeper offer, Have someone click the \"interested in\" button on sleeper, Carrier pigeon",
     "preferredContact": "Sleeper",
    }, 
   {
@@ -175,7 +169,6 @@ export const managers = [
     "rookieOrVets": "Rookies",
     "philosophy": "Your fantasy team's philosophy",
     "tradingScale": 7,
-    "contactMethods": "Blind Sleeper offer, Have someone click the \"interested in\" button on sleeper, Carrier pigeon",
     "preferredContact": "Sleeper",
   }, 
   {
@@ -197,7 +190,6 @@ export const managers = [
     "rookieOrVets": "Rookies",
     "philosophy": "Your fantasy team's philosophy",
     "tradingScale": 7,
-    "contactMethods": "Blind Sleeper offer, Have someone click the \"interested in\" button on sleeper, Carrier pigeon",
     "preferredContact": "Sleeper",
   }, 
   {
@@ -219,7 +211,6 @@ export const managers = [
     "rookieOrVets": "Rookies",
     "philosophy": "Your fantasy team's philosophy",
     "tradingScale": 7,
-    "contactMethods": "Blind Sleeper offer, Have someone click the \"interested in\" button on sleeper, Carrier pigeon",
     "preferredContact": "Sleeper",
   }, 
   {
@@ -241,7 +232,6 @@ export const managers = [
     "rookieOrVets": "Rookies",
     "philosophy": "Your fantasy team's philosophy",
     "tradingScale": 7,
-    "contactMethods": "Blind Sleeper offer, Have someone click the \"interested in\" button on sleeper, Carrier pigeon",
     "preferredContact": "Sleeper",
   },
 ]
