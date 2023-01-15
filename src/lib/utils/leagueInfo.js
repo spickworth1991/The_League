@@ -48,7 +48,6 @@ export const managers = [
     {
       "managerID": "466018632162340864",
       "name": "Siruppp",
-      "tookOver": null,
       "location": "NA",
       "bio": "NA",
       "photo": "/managers/question.jpg",
@@ -70,7 +69,6 @@ export const managers = [
     {
       "managerID": "467332407989628928",
       "name": "JLURubicon",
-      "tookOver": null,
       "location": "NA",
       "bio": "NA",
       "photo": "/managers/question.jpg",
@@ -92,7 +90,6 @@ export const managers = [
     {
       "managerID": "871098508751613952",
       "name": "Wahnjoke",
-      "tookOver": null,
       "location": "NA",
       "bio": "Welcome to Pittsville",
       "photo": "/managers/question.jpg",
@@ -114,7 +111,6 @@ export const managers = [
     {
       "managerID": "607072591399698432",
       "name": "SteveCotugno",
-      "tookOver": null,
       "location": "NA",
       "bio": "NA",
       "photo": "/managers/question.jpg",
@@ -136,7 +132,6 @@ export const managers = [
     {
       "managerID": "466050278584479744",
       "name": "Meeky23",
-      "tookOver": null,
       "location": "NA",
       "bio": "NA",
       "photo": "/managers/question.jpg",
@@ -158,7 +153,6 @@ export const managers = [
     {
       "managerID": "853359294014410752",
       "name": "Alberto_18",
-      "tookOver": null,
       "location": "NA",
       "bio": "NA",
       "photo": "/managers/question.jpg",
@@ -180,7 +174,6 @@ export const managers = [
     {
       "managerID": "732620569417224192",
       "name": "Theredbeard518",
-      "tookOver": null,
       "location": "NA",
       "bio": "Tittsburgh Feelers",
       "photo": "/managers/question.jpg",
@@ -202,7 +195,6 @@ export const managers = [
     {
       "managerID": "725535217791643648",
       "name": "Thegoalie33",
-      "tookOver": null,
       "location": "NA",
       "bio": "NA",
       "photo": "/managers/question.jpg",
@@ -224,7 +216,6 @@ export const managers = [
     {
       "managerID": "753965951472574464",
       "name": "bwhitte85",
-      "tookOver": null,
       "location": "NA",
       "bio": "NA",
       "photo": "/managers/question.jpg",
