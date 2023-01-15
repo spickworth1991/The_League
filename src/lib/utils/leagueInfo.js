@@ -86,7 +86,7 @@ export const managers = [
       "philosophy": "Your fantasy team's philosophy",
       "tradingScale": 7,
       "preferredContact": "Sleeper",
-    }, 
+    },
     {
       "managerID": "871098508751613952",
       "name": "Wahnjoke",
@@ -107,7 +107,7 @@ export const managers = [
       "philosophy": "Your fantasy team's philosophy",
       "tradingScale": 7,
       "preferredContact": "Sleeper",
-    }, 
+    },
     {
       "managerID": "607072591399698432",
       "name": "SteveCotugno",
@@ -128,7 +128,7 @@ export const managers = [
       "philosophy": "Your fantasy team's philosophy",
       "tradingScale": 7,
       "preferredContact": "Sleeper",
-    }, 
+    },
     {
       "managerID": "466050278584479744",
       "name": "Meeky23",
@@ -149,7 +149,7 @@ export const managers = [
       "philosophy": "Your fantasy team's philosophy",
       "tradingScale": 7,
       "preferredContact": "Sleeper",
-     }, 
+     },
     {
       "managerID": "853359294014410752",
       "name": "Alberto_18",
@@ -170,7 +170,7 @@ export const managers = [
       "philosophy": "Your fantasy team's philosophy",
       "tradingScale": 7,
       "preferredContact": "Sleeper",
-    }, 
+    },
     {
       "managerID": "732620569417224192",
       "name": "Theredbeard518",
@@ -191,7 +191,7 @@ export const managers = [
       "philosophy": "Your fantasy team's philosophy",
       "tradingScale": 7,
       "preferredContact": "Sleeper",
-    }, 
+    },
     {
       "managerID": "725535217791643648",
       "name": "Thegoalie33",
@@ -212,7 +212,7 @@ export const managers = [
       "philosophy": "Your fantasy team's philosophy",
       "tradingScale": 7,
       "preferredContact": "Sleeper",
-    }, 
+    },
     {
       "managerID": "753965951472574464",
       "name": "bwhitte85",
