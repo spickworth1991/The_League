@@ -58,7 +58,7 @@ export const managers = [
     "rival": {
       name: "Rival",
       link: 5,
-      image: "/managers/rival.jpg",
+      image: "/managers/everyone.png",
     },
     "favoritePlayer": 1426,
     "valuePosition": "WR",
