@@ -12,7 +12,6 @@ export const homepageText = `
   <p>There are some decent features this adds, if you are interested, under "records" it breaks down different season and all time records.</p>
   <p></p>
   <p></p>
-  <p></p>
 `;
 
 /*   STEP 3   */
