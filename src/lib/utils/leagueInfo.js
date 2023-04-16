@@ -10,7 +10,7 @@ export const homepageText = `
 <p>Welcome to The League.</p>
 <p>If you notice any issues with the website, please let StickyPicky know so he can fix it. </p>
 <p>There are some decent features this adds, if you are interested, under "records" it breaks down different season and all time records.</p>
-<p><iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTy_BV2hS2ATaUnPJwBsm0pDbR4yVK130QUXamFhTawo1AKZ1-y7SKsu5DhMwBiMsOTxl6TygpqdIZG/pubhtml?widget=true&amp;headers=false"></iframe></p>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTy_BV2hS2ATaUnPJwBsm0pDbR4yVK130QUXamFhTawo1AKZ1-y7SKsu5DhMwBiMsOTxl6TygpqdIZG/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 <p></p>
 `;
 
