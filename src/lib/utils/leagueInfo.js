@@ -1,18 +1,17 @@
 /*   STEP 1   */
-export const leagueID = "your_league_id"; // your league ID
-export const leagueName = "your_league_name"; // your league name
-export const dues = 100; // (optional) used in template constitution page
+export const leagueID = "920326259551375360"; // your league ID
+export const leagueName = "The League"; // your league name
+export const dues = 25; // (optional) used in template constitution page
 export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Welcome to The League.</p>
+<p>If you notice any issues with the website, please let StickyPicky know so he can fix it. </p>
+<p>There are some decent features this adds, if you are interested, under "records" it breaks down different season and all time records.</p>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTy_BV2hS2ATaUnPJwBsm0pDbR4yVK130QUXamFhTawo1AKZ1-y7SKsu5DhMwBiMsOTxl6TygpqdIZG/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="1000" height="1000"></iframe>
+<p></p>
 `;
 
 /*   STEP 3   */
@@ -25,73 +24,218 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 // To omit an optional field, set it's value to null
 
 export const managers = [
-    // {
-    //   "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-    //   "name": "Your Name",
-    //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-    //   "location": "Brooklyn", // (optional)
-    //   "bio": "Lorem ipsum...",
-    //   "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-    //   "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
-    //   "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-    //   "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-    //   "rival": {
-    //     name: "Rival", // Can be anything (usually your rival's name)
-    //     link: 6, // manager array number within this array, or null to link back to all managers page
-    //     image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-    //   },
-    //   "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-    //   "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-    //   "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-    //   "philosophy": "Your fantasy team's philosophy",
-    //   "tradingScale": 10, // 1 - 10
-    //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    // },
-    // {
-    //   "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-    //   "name": "Your Name",
-    //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-    //   "location": "Brooklyn", // (optional)
-    //   "bio": "Lorem ipsum...",
-    //   "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-    //   "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
-    //   "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-    //   "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-    //   "rival": {
-    //     name: "Rival", // Can be anything (usually your rival's name)
-    //     link: 6, // manager array number within this array, or null to link back to all managers page
-    //     image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-    //   },
-    //   "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-    //   "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-    //   "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-    //   "philosophy": "Your fantasy team's philosophy",
-    //   "tradingScale": 10, // 1 - 10
-    //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    // },
-    // {
-    //   "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-    //   "name": "Your Name",
-    //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-    //   "location": "Brooklyn", // (optional)
-    //   "bio": "Lorem ipsum...",
-    //   "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-    //   "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
-    //   "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-    //   "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-    //   "rival": {
-    //     name: "Rival", // Can be anything (usually your rival's name)
-    //     link: 6, // manager array number within this array, or null to link back to all managers page
-    //     image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-    //   },
-    //   "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-    //   "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-    //   "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-    //   "philosophy": "Your fantasy team's philosophy",
-    //   "tradingScale": 10, // 1 - 10
-    //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    // },
-  ]
+  {
+    "managerID": "633359171764449280",
+    "name": "Sean (StickyPicky)",
+    "location": "Detroit",
+    "bio": "CNC operator by day, fantasy coach by night",
+    "photo": "/managers/Picky.png",
+    "fantasyStart": 2012,
+    "favoriteTeam": "det",
+    "mode": "Win Now", 
+    "rival": {
+      name: "Everyone",
+      link: 6,
+      image: "/managers/everyone.png",
+    },
+    "favoritePlayer": 3198,
+    "valuePosition": "WR",
+    "rookieOrVets": "Rookies",
+    "philosophy": "You lose every chance you dont take. ",
+    "tradingScale": 7,
+    "preferredContact": "Sleeper",
+  },
+  {
+    "managerID": "466018632162340864",
+    "name": "Siruppp",
+    "location": "NA",
+    "bio": "NA",
+    "photo": "/managers/question.jpg",
+    "fantasyStart": 2014,
+    "favoriteTeam": "nyj",
+    "mode": "Dynasty",
+    "rival": {
+      name: "Rival",
+      link: 5,
+      image: "/managers/everyone.png",
+    },
+    "favoritePlayer": 1426,
+    "valuePosition": "WR",
+    "rookieOrVets": "Rookies",
+    "philosophy": "Your fantasy team's philosophy",
+    "tradingScale": 10,
+    "preferredContact": "Sleeper",
+  },
+  {
+    "managerID": "467332407989628928",
+    "name": "JLURubicon",
+    "location": "NA",
+    "bio": "NA",
+    "photo": "/managers/question.jpg",
+    "fantasyStart": 2014,
+    "favoriteTeam": "nyj",
+    "mode": "Win Now",
+    "rival": {
+      name: "Everyone",
+      link: 4,
+      image: "/managers/everyone.png",
+    },
+    "favoritePlayer": 1426,
+    "valuePosition": "WR",
+    "rookieOrVets": "Rookies",
+    "philosophy": "Your fantasy team's philosophy",
+    "tradingScale": 7,
+    "preferredContact": "Sleeper",
+  }, 
+  {
+    "managerID": "871098508751613952",
+    "name": "Wahnjoke",
+    "location": "NA",
+    "bio": "Welcome to Pittsville",
+    "photo": "/managers/question.jpg",
+    "fantasyStart": 2014,
+    "favoriteTeam": "pit",
+    "mode": "Win Now",
+    "rival": {
+      name: "Everyone",
+      link: 3,
+      image: "/managers/everyone.png",
+    },
+    "favoritePlayer": 1426,
+    "valuePosition": "WR",
+    "rookieOrVets": "Rookies",
+    "philosophy": "Your fantasy team's philosophy",
+    "tradingScale": 7,
+    "preferredContact": "Sleeper",
+  }, 
+  {
+    "managerID": "607072591399698432",
+    "name": "SteveCotugno",
+    "location": "NA",
+    "bio": "NA",
+    "photo": "/managers/question.jpg",
+    "fantasyStart": 2014,
+    "favoriteTeam": "nyj",
+    "mode": "Rebuild",
+    "rival": {
+      name: "Everyone",
+      link: 2,
+      image: "/managers/everyone.png",
+    },
+    "favoritePlayer": 1426,
+    "valuePosition": "WR",
+    "rookieOrVets": "Rookies",
+    "philosophy": "Your fantasy team's philosophy",
+    "tradingScale": 7,
+    "preferredContact": "Sleeper",
+  }, 
+  {
+    "managerID": "466050278584479744",
+    "name": "Meeky23",
+    "location": "NA",
+    "bio": "NA",
+    "photo": "/managers/question.jpg",
+    "fantasyStart": 2014,
+    "favoriteTeam": "nyj",
+    "mode": "Win Now",
+    "rival": {
+      name: "Everyone",
+      link: 7,
+      image: "/managers/everyone.png",
+    },
+    "favoritePlayer": 1426,
+    "valuePosition": "WR",
+    "rookieOrVets": "Rookies",
+    "philosophy": "Your fantasy team's philosophy",
+    "tradingScale": 7,
+    "preferredContact": "Sleeper",
+   }, 
+  {
+    "managerID": "853359294014410752",
+    "name": "Alberto_18",
+    "location": "NA",
+    "bio": "NA",
+    "photo": "/managers/question.jpg",
+    "fantasyStart": 2014,
+    "favoriteTeam": "nyj",
+    "mode": "Win Now",
+    "rival": {
+      name: "Everyone",
+      link: 6,
+      image: "/managers/everyone.png",
+    },
+    "favoritePlayer": 1426,
+    "valuePosition": "WR",
+    "rookieOrVets": "Rookies",
+    "philosophy": "Your fantasy team's philosophy",
+    "tradingScale": 7,
+    "preferredContact": "Sleeper",
+  }, 
+  {
+    "managerID": "732620569417224192",
+    "name": "Theredbeard518",
+    "location": "NA",
+    "bio": "Tittsburgh Feelers",
+    "photo": "/managers/question.jpg",
+    "fantasyStart": 2014,
+    "favoriteTeam": "pit",
+    "mode": "Win Now",
+    "rival": {
+      name: "Everyone",
+      link: 4,
+      image: "/managers/everyone.png",
+    },
+    "favoritePlayer": 1426,
+    "valuePosition": "WR",
+    "rookieOrVets": "Rookies",
+    "philosophy": "Your fantasy team's philosophy",
+    "tradingScale": 7,
+    "preferredContact": "Sleeper",
+  }, 
+  {
+    "managerID": "725535217791643648",
+    "name": "Thegoalie33",
+    "location": "NA",
+    "bio": "NA",
+    "photo": "/managers/question.jpg",
+    "fantasyStart": 2014,
+    "favoriteTeam": "la",
+    "mode": "Win Now",
+   "rival": {
+      name: "Everyone",
+      link: 1,
+      image: "/managers/everyone.png",
+    },
+    "favoritePlayer": 1426,
+    "valuePosition": "WR",
+    "rookieOrVets": "Rookies",
+    "philosophy": "Your fantasy team's philosophy",
+    "tradingScale": 7,
+    "preferredContact": "Sleeper",
+  }, 
+  {
+    "managerID": "753965951472574464",
+    "name": "bwhitte85",
+    "location": "NA",
+    "bio": "NA",
+    "photo": "/managers/question.jpg",
+    "fantasyStart": 2014, 
+    "favoriteTeam": "buf",
+    "mode": "Win Now",
+    "rival": {
+      name: "Everyone",
+      link: 2,
+      image: "/managers/everyone.png",
+    },
+    "favoritePlayer": 1426,
+    "valuePosition": "WR",
+    "rookieOrVets": "Rookies",
+    "philosophy": "Your fantasy team's philosophy",
+    "tradingScale": 7,
+    "preferredContact": "Sleeper",
+  },
+]
+
   
   
   /*   !!  !!  IMPORTANT  !!  !! */
