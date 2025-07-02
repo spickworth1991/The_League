@@ -12,7 +12,7 @@ export const homepageText = `
 <p>There are some decent features this adds, if you are interested, under "records" it breaks down different season and all time records.</p>
 <p>There is also a "managers" page that has some information about each manager, if you want to add or change anything, please let StickyPicky know.</p>
 <p>There is also a "Sleeper Tools" with some tools i have built you can check out just below.</p>
-<iframe src="https://sleepertools.onrender.com/" width="1000" height="1000"></iframe>
+<iframe src="https://sleepertools.onrender.com/" width="750" height="750"></iframe>
 <p></p>
 `;
 
