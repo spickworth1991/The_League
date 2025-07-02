@@ -1,5 +1,5 @@
 /*   STEP 1   */
-export const leagueID = "920326259551375360"; // your league ID
+export const leagueID = "1213003128778006528"; // your league ID
 export const leagueName = "The League"; // your league name
 export const dues = 25; // (optional) used in template constitution page
 export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
@@ -109,8 +109,8 @@ export const managers = [
     "preferredContact": "Sleeper",
   }, 
   {
-    "managerID": "607072591399698432",
-    "name": "SteveCotugno",
+    "managerID": "732625209554792448",
+    "name": "Mavist",
     "location": "NA",
     "bio": "NA",
     "photo": "/managers/question.jpg",
@@ -130,8 +130,8 @@ export const managers = [
     "preferredContact": "Sleeper",
   }, 
   {
-    "managerID": "466050278584479744",
-    "name": "Meeky23",
+    "managerID": "921363504051957760",
+    "name": "BASEketball98",
     "location": "NA",
     "bio": "NA",
     "photo": "/managers/question.jpg",
