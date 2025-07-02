@@ -85,14 +85,14 @@
     .right2 {
         text-align: right;
         font-size: 0.8em;
-        font-Weight: "bold"
+        font-weight: bold;
     }
 
 
     .positionMaximums td {
         min-width: 1em;
         font-size: 0.8em;
-        font-Weight: "bold"
+        font-weight: bold;
     }
 
     .noUnderscore {
@@ -244,10 +244,12 @@
         
         <div class="subBlock">
             <table class="positionMaximums">
-                <tr><td>QB</td><td class="right">2 active, 5 total</td></tr>
-                <tr><td>RB</td><td class="right">20</td></tr>
-                <tr><td>WR</td><td class="right">20</td></tr>
-                <tr><td>TE</td><td class="right">10</td></tr>
+                <tbody>
+                    <tr><td>QB</td><td class="right">2 active, 5 total</td></tr>
+                    <tr><td>RB</td><td class="right">20</td></tr>
+                    <tr><td>WR</td><td class="right">20</td></tr>
+                    <tr><td>TE</td><td class="right">10</td></tr>
+                </tbody>
             </table>
         </div>
 
@@ -309,38 +311,39 @@
     <p class="underscore">Waiver Schedule</p>
     <div class="subBlock">
         <table class="positionMaximums">
-            <tr><td>Tuesday</td><td class="right2">FAAB Waivers- bids process at 3 AM EST</td></tr>
-            <tr><td></td><td class="right"></td></tr>
-            <tr><td></td><td class="right"></td></tr>
-            <tr><td></td><td class="right"></td></tr>
-            <tr><td></td><td class="right"></td></tr>
-            <tr><td>Wednesday</td><td class="right2">FAAB Waivers- bids process at 3 AM EST</td></tr>
-            <tr><td></td><td class="right"></td></tr>
-            <tr><td></td><td class="right"></td></tr>
-            <tr><td></td><td class="right"></td></tr>
-            <tr><td></td><td class="right"></td></tr>
-            <tr><td>Thursday</td><td class="right2">FAAB Waivers to Free Agency, bids process at 3 AM EST and then Free Agency until 3 AM Friday</td></tr>
-            <tr><td></td><td class="right"></td></tr>
-            <tr><td></td><td class="right"></td></tr>
-            <tr><td></td><td class="right"></td></tr>
-            <tr><td></td><td class="right"></td></tr>
-            <tr><td>Friday</td><td class="right2">Players return to Waivers at 3 AM EST. Bids can be put in to process Saturday at 3 AM </td></tr>
-            <tr><td></td><td class="right"></td></tr>
-            <tr><td></td><td class="right"></td></tr>
-            <tr><td></td><td class="right"></td></tr>
-            <tr><td></td><td class="right"></td></tr>
-            <tr><td>Saturday</td><td class="right2">FAAB Waivers- bids process at 3 AM EST</td></tr>
-            <tr><td></td><td class="right"></td></tr>
-            <tr><td></td><td class="right"></td></tr>
-            <tr><td></td><td class="right"></td></tr>
-            <tr><td></td><td class="right"></td></tr>
-            <tr><td>Sunday</td><td class="right2">FAAB Waivers to Free Agency, bids process at 3 AM EST and then Free Agency until 3 AM Monday</td></tr>
-            <tr><td></td><td class="right"></td></tr>
-            <tr><td></td><td class="right"></td></tr>
-            <tr><td></td><td class="right"></td></tr>
-            <tr><td></td><td class="right"></td></tr>
-            <tr><td>Monday</td><td class="right2">Players will return to Waivers at 3 AM EST. Bids can be put in to process Tuesday at 3 AM</td></tr>
-
+            <tbody>
+                <tr><td>Tuesday</td><td class="right2">FAAB Waivers- bids process at 3 AM EST</td></tr>
+                <tr><td></td><td class="right"></td></tr>
+                <tr><td></td><td class="right"></td></tr>
+                <tr><td></td><td class="right"></td></tr>
+                <tr><td></td><td class="right"></td></tr>
+                <tr><td>Wednesday</td><td class="right2">FAAB Waivers- bids process at 3 AM EST</td></tr>
+                <tr><td></td><td class="right"></td></tr>
+                <tr><td></td><td class="right"></td></tr>
+                <tr><td></td><td class="right"></td></tr>
+                <tr><td></td><td class="right"></td></tr>
+                <tr><td>Thursday</td><td class="right2">FAAB Waivers to Free Agency, bids process at 3 AM EST and then Free Agency until 3 AM Friday</td></tr>
+                <tr><td></td><td class="right"></td></tr>
+                <tr><td></td><td class="right"></td></tr>
+                <tr><td></td><td class="right"></td></tr>
+                <tr><td></td><td class="right"></td></tr>
+                <tr><td>Friday</td><td class="right2">Players return to Waivers at 3 AM EST. Bids can be put in to process Saturday at 3 AM </td></tr>
+                <tr><td></td><td class="right"></td></tr>
+                <tr><td></td><td class="right"></td></tr>
+                <tr><td></td><td class="right"></td></tr>
+                <tr><td></td><td class="right"></td></tr>
+                <tr><td>Saturday</td><td class="right2">FAAB Waivers- bids process at 3 AM EST</td></tr>
+                <tr><td></td><td class="right"></td></tr>
+                <tr><td></td><td class="right"></td></tr>
+                <tr><td></td><td class="right"></td></tr>
+                <tr><td></td><td class="right"></td></tr>
+                <tr><td>Sunday</td><td class="right2">FAAB Waivers to Free Agency, bids process at 3 AM EST and then Free Agency until 3 AM Monday</td></tr>
+                <tr><td></td><td class="right"></td></tr>
+                <tr><td></td><td class="right"></td></tr>
+                <tr><td></td><td class="right"></td></tr>
+                <tr><td></td><td class="right"></td></tr>
+                <tr><td>Monday</td><td class="right2">Players will return to Waivers at 3 AM EST. Bids can be put in to process Tuesday at 3 AM</td></tr>
+            </tbody>
         </table>
     </div>
 
@@ -380,69 +383,78 @@
     <h4>Passing</h4>
     <div class="subBlock">
         <table class="positionMaximums">
-            <tr><td>Passing Yards</td><td class="right">1 point every 25 yards</td></tr>
-            <tr><td>Passing TD</td><td class="right">6</td></tr>
-            <tr><td>Passing 1st Down</td><td class="right">.5</td></tr>
-            <tr><td>2-PT Conversion</td><td class="right">2</td></tr>
-            <tr><td>Pass Intercepted</td><td class="right">-1</td></tr>
-            <tr><td>Pick 6 Thrown</td><td class="right">-6</td></tr>
-            <tr><td>Pass Completed</td><td class="right">.25</td></tr>
-            <tr><td>Incomplete Pass</td><td class="right">-.15</td></tr>
-            <tr><td>40+ YD Completion Bonus</td><td class="right">1</td></tr>
-            <tr><td>40+ YD Pass TD Bonus</td><td class="right">2</td></tr>
-            <tr><td>50+ YD Pass TD Bonus</td><td class="right">3</td></tr>
+            <tbody>
+                <tr><td>Passing Yards</td><td class="right">1 point every 25 yards</td></tr>
+                <tr><td>Passing TD</td><td class="right">6</td></tr>
+                <tr><td>Passing 1st Down</td><td class="right">.5</td></tr>
+                <tr><td>2-PT Conversion</td><td class="right">2</td></tr>
+                <tr><td>Pass Intercepted</td><td class="right">-1</td></tr>
+                <tr><td>Pick 6 Thrown</td><td class="right">-6</td></tr>
+                <tr><td>Pass Completed</td><td class="right">.25</td></tr>
+                <tr><td>Incomplete Pass</td><td class="right">-.15</td></tr>
+                <tr><td>40+ YD Completion Bonus</td><td class="right">1</td></tr>
+                <tr><td>40+ YD Pass TD Bonus</td><td class="right">2</td></tr>
+                <tr><td>50+ YD Pass TD Bonus</td><td class="right">3</td></tr>
+            </tbody>
         </table>
     </div>
 
     <h4>Rushing</h4>
     <div class="subBlock">
         <table class="positionMaximums">
-            <tr><td>Rushing Yards</td><td class="right">1 point every 10 yards</td></tr>
-            <tr><td>Rushing TD</td><td class="right">6</td></tr>
-            <tr><td>Rushing 1st Down</td><td class="right">1</td></tr>
-            <tr><td>2-PT Conversion</td><td class="right">2</td></tr>
-            <tr><td>Rush Attempts</td><td class="right">.25</td></tr>
-            <tr><td>40+ YD Rush Bonus</td><td class="right">1</td></tr>
-            <tr><td>40+ YD Rush TD Bonus</td><td class="right">2</td></tr>
-            <tr><td>50+ YD Rush TD Bonus</td><td class="right">3</td></tr>
+            <tbody>
+                <tr><td>Rushing Yards</td><td class="right">1 point every 10 yards</td></tr>
+                <tr><td>Rushing TD</td><td class="right">6</td></tr>
+                <tr><td>Rushing 1st Down</td><td class="right">1</td></tr>
+                <tr><td>2-PT Conversion</td><td class="right">2</td></tr>
+                <tr><td>Rush Attempts</td><td class="right">.25</td></tr>
+                <tr><td>40+ YD Rush Bonus</td><td class="right">1</td></tr>
+                <tr><td>40+ YD Rush TD Bonus</td><td class="right">2</td></tr>
+                <tr><td>50+ YD Rush TD Bonus</td><td class="right">3</td></tr>
+            </tbody>
         </table>
     </div>
 
     <h4>Recieving</h4>
     <div class="subBlock">
+        
         <table class="positionMaximums">
-            <tr><td>Reception</td><td class="right">1</td></tr>
-            <tr><td>Receiving Yards</td><td class="right">1 point every 10 yards</td></tr>
-            <tr><td>Receiving TD</td><td class="right">6</td></tr>
-            <tr><td>Receiving 1st Down</td><td class="right">.5</td></tr>
-            <tr><td>2-PT Conversion</td><td class="right">2</td></tr>
-            <tr><td>5-9 Yard Reception Bonus</td><td class="right">.1</td></tr>
-            <tr><td>10-19 Yard Reception Bonus</td><td class="right">.25</td></tr>
-            <tr><td>20-29 Yard Reception Bonus</td><td class="right">.5</td></tr>
-            <tr><td>30-39 Yard Reception Bonus</td><td class="right">.75</td></tr>
-            <tr><td>40+ Yard Reception Bonus</td><td class="right">1</td></tr>
-            <tr><td>40+ YD Reception TD Bonus</td><td class="right">2</td></tr>
-            <tr><td>50+ YD Reception TD Bonus</td><td class="right">3</td></tr>
-            <tr><td>Reception Bonus: RB</td><td class="right">.75</td></tr>
-            <tr><td>Reception Bonus: TE</td><td class="right">1.25</td></tr>
+            <tbody>
+                <tr><td>Reception</td><td class="right">1</td></tr>
+                <tr><td>Receiving Yards</td><td class="right">1 point every 10 yards</td></tr>
+                <tr><td>Receiving TD</td><td class="right">6</td></tr>
+                <tr><td>Receiving 1st Down</td><td class="right">.5</td></tr>
+                <tr><td>2-PT Conversion</td><td class="right">2</td></tr>
+                <tr><td>5-9 Yard Reception Bonus</td><td class="right">.1</td></tr>
+                <tr><td>10-19 Yard Reception Bonus</td><td class="right">.25</td></tr>
+                <tr><td>20-29 Yard Reception Bonus</td><td class="right">.5</td></tr>
+                <tr><td>30-39 Yard Reception Bonus</td><td class="right">.75</td></tr>
+                <tr><td>40+ Yard Reception Bonus</td><td class="right">1</td></tr>
+                <tr><td>40+ YD Reception TD Bonus</td><td class="right">2</td></tr>
+                <tr><td>50+ YD Reception TD Bonus</td><td class="right">3</td></tr>
+                <tr><td>Reception Bonus: RB</td><td class="right">.75</td></tr>
+                <tr><td>Reception Bonus: TE</td><td class="right">1.25</td></tr>
+            </tbody>
         </table>
     </div>
 
     <h4>Misc/Bonuses</h4>
     <div class="subBlock">
         <table class="positionMaximums">
-            <tr><td>Player Punt Return Yards</td><td class="right">1 point every 5 yards</td></tr>
-            <tr><td>Player Kick Return Yards</td><td class="right">1 point every 15 yards</td></tr>
-            <tr><td>Fumble Lost</td><td class="right">-2</td></tr>
-            <tr><td>Fumble Recovery TD</td><td class="right">6</td></tr>
-            <tr><td>100-199 YD Rushing Game</td><td class="right">6</td></tr>
-            <tr><td>200+ YD Rushing Game</td><td class="right">14</td></tr>
-            <tr><td>100-199 YD Receiving Game</td><td class="right">6</td></tr>
-            <tr><td>200+ YD Receiving Game</td><td class="right">14</td></tr>
-            <tr><td>300-399 YD Passing Game</td><td class="right">5</td></tr>
-            <tr><td>400+ YD Passing Game</td><td class="right">10</td></tr>
-            <tr><td>100-199 Combined Rush + Rec Yards</td><td class="right">4</td></tr>
-            <tr><td>200+ YD Combined Rush + Rec Yards</td><td class="right">10</td></tr>
+            <tbody>
+                <tr><td>Player Punt Return Yards</td><td class="right">1 point every 5 yards</td></tr>
+                <tr><td>Player Kick Return Yards</td><td class="right">1 point every 15 yards</td></tr>
+                <tr><td>Fumble Lost</td><td class="right">-2</td></tr>
+                <tr><td>Fumble Recovery TD</td><td class="right">6</td></tr>
+                <tr><td>100-199 YD Rushing Game</td><td class="right">6</td></tr>
+                <tr><td>200+ YD Rushing Game</td><td class="right">14</td></tr>
+                <tr><td>100-199 YD Receiving Game</td><td class="right">6</td></tr>
+                <tr><td>200+ YD Receiving Game</td><td class="right">14</td></tr>
+                <tr><td>300-399 YD Passing Game</td><td class="right">5</td></tr>
+                <tr><td>400+ YD Passing Game</td><td class="right">10</td></tr>
+                <tr><td>100-199 Combined Rush + Rec Yards</td><td class="right">4</td></tr>
+                <tr><td>200+ YD Combined Rush + Rec Yards</td><td class="right">10</td></tr>
+            </tbody>
         </table>
     </div>
 
