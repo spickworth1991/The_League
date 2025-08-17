@@ -48,8 +48,8 @@ export const managers = [
     "preferredContact": "Sleeper",
   },
   {
-    "managerID": "466018632162340864",
-    "name": "New Player",
+    "managerID": "456301630686490624",
+    "name": "douglas1030",
     "location": "NA",
     "bio": "NA",
     "photo": "/managers/question.jpg",
