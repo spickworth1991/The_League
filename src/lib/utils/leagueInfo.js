@@ -12,7 +12,7 @@ export const homepageText = `
 <p>There are some decent features this adds, if you are interested, under "records" it breaks down different season and all time records.</p>
 <p>There is also a "managers" page that has some information about each manager, if you want to add or change anything, please let StickyPicky know.</p>
 <p>There is also a "Sleeper Tools" with some tools i have built you can check out just below.</p>
-<iframe src="https://sleepertools.onrender.com/" width="750" height="750"></iframe>
+<iframe src="https://the-fantasy-arsenal.vercel.app/" width="750" height="750"></iframe>
 <p></p>
 `;
 
@@ -49,7 +49,7 @@ export const managers = [
   },
   {
     "managerID": "466018632162340864",
-    "name": "Siruppp",
+    "name": "New Player",
     "location": "NA",
     "bio": "NA",
     "photo": "/managers/question.jpg",
@@ -69,8 +69,8 @@ export const managers = [
     "preferredContact": "Sleeper",
   },
   {
-    "managerID": "467332407989628928",
-    "name": "JLURubicon",
+    "managerID": "1206383330921029632",
+    "name": "NicRiddell",
     "location": "NA",
     "bio": "NA",
     "photo": "/managers/question.jpg",
@@ -132,8 +132,8 @@ export const managers = [
     "preferredContact": "Sleeper",
   }, 
   {
-    "managerID": "921363504051957760",
-    "name": "BASEketball98",
+    "managerID": "853365026147368960",
+    "name": "leelo73",
     "location": "NA",
     "bio": "NA",
     "photo": "/managers/question.jpg",
