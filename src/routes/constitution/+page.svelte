@@ -515,7 +515,7 @@
     <p>When a manager needs to be replaced, the commissioners will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who are eager to take on a dynasty commitment and will be very active within the league.</p>
     
     <h3 bind:this={sixThree}>7.3 Replacement Incentive</h3>
-    <p>In the event that a manager chooses to quit the league or is removed by a comissioner, an incoming manager is offered a 50% reduction on their first year buy-in. If the year isnt already paid for.</p>
+    <p>In the event that a manager chooses to quit the league or is removed by a comissioner, an incoming manager may be offered a 50% reduction on their first year buy-in, depending on the status of the team. If the year isnt already paid for.</p>
 
     <h2 class="sectionHeading" bind:this={seven}>Section 8 League Finances</h2>
     
